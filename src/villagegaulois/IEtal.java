@@ -3,11 +3,11 @@ package villagegaulois;
 import personnages.Gaulois;
 import produits.Produit;
 
-public interface IEtal<P extends Produit> {
+public interface IEtal {
 
     boolean isEtalOccupe();
 
-    P getProduit();
+    Produit getProduit();
 
     Gaulois getVendeur();
 

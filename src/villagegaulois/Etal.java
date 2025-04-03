@@ -3,7 +3,7 @@ package villagegaulois;
 import personnages.Gaulois;
 import produits.Produit;
 
-public class Etal <P extends Produit> implements IEtal<P> {
+public class Etal <P extends Produit> implements IEtal {
     private Gaulois vendeur;
     private P produit;
     private int quantiteDebutMarche;
