@@ -1,16 +1,13 @@
 package villagegaulois;
 
 import personnages.Gaulois;
-import produits.Produit;
 
 public interface IEtal {
+	Gaulois getVendeur();
 
-    boolean isEtalOccupe();
+	int contientProduit(String produit, int quantiteSouhaitee);
 
-    Produit getProduit();
+	int acheterProduit(int quantiteSouhaitee);
 
-    Gaulois getVendeur();
-
-    int getQuantite();
-
+	String etatEtal();
 }

@@ -10,6 +10,6 @@ public class Poisson extends Produit {
 
 	@Override
 	public String decrireProduit() {
-		return getNom() + "s pêchés " + datePeche + ".";
+		return getNom() + "s pÃªchÃ©s " + datePeche + ".";
 	}
 }
